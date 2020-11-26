@@ -13,6 +13,7 @@ class ProvidersController < ApplicationController
 
     @icons = { plus: ActionController::Base.helpers.image_url("icons/plus.svg"),
                check: ActionController::Base.helpers.image_url("icons/checked.svg") }
+               
   end
 
   def show
